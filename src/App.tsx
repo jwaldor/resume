@@ -17,10 +17,11 @@ function App() {
             <h3 className="font-semibold">POMONA COLLEGE</h3>
             <span>Claremont, CA</span>
           </div>
+          <p>Class of 2022</p>
           <p>B.A. in Mathematics, Magna Cum Laude</p>
           <p>Phi Beta Kappa member | GPA: 3.96 | GRE: 168/170 Verbal, 167/170 Quantitative</p>
           <p>Pomona College Scholar (3x)</p>
-          <p>Graduated: May 2022</p>
+          
         </div>
       </section>
 
@@ -37,8 +38,8 @@ function App() {
             <li>Building extensive experience shipping code, with over 15 PRs and 56 hours of work per week</li>
             <li>Developing and deploying web applications using modern technologies and best practices</li>
             <li>Collaborating with a team of developers on real-world projects</li>
-            <li>Won second place in copilot hackaton for developing FrontendCopilot: a React app with GPT-4o integration, allowing real-time UI modifications via natural language, utilizing TypeScript, Tailwind, Framer Motion, and custom state management</li>
-            <li>Won third place in hackathon for co-developing Quipai, a real-time multiplayer party game using React, TypeScript, Tailwind CSS, Socket.IO, and OpenAI's API, featuring dynamic question generation, geolocation, and QR code game joining</li>
+            <li>Won second place in copilot hackathon for developing FrontendCopilot: a React app with GPT-4o integration, allowing real-time UI modifications via natural language, utilizing TypeScript, Tailwind, Framer Motion, and custom state management</li>
+            <li>Won third place in hackathon for co-developing Quipai, a real-time multiplayer party game using React, TypeScript, Tailwind CSS, Socket.IO, and OpenAI's API, featuring dynamic question generation, geolocation, QR code game joining, and global state management</li>
             <li>Externships: Membrane, ApplyAll</li>
           </ul>
         </div>
@@ -71,7 +72,7 @@ function App() {
           <p className="italic">Software Developer</p>
           <p>9/2024 – 10/2024</p>
           <ul className="list-disc list-inside">
-            <li>Whipped up integrations for this cool multi-platform system using Node.js, GraphQL, and a bunch of APIs</li>
+            <li>Whipped up integrations for this cool multi-platform system using a bunch of APIs</li>
             <li>Beefed up the GitHub integration to handle org-wide events and PR reviews - way more powerful now</li>
             <li>Got clever with graphql-js to pull types straight from Linear's schema - saved us a ton of time</li>
             <li>Set up Slack to ping people about PR reviews and open issues - no more excuses for missing stuff</li>
