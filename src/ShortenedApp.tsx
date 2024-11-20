@@ -86,16 +86,14 @@ function ShortenedApp() {
             <section className="mb-2">
                 <h2 className="text-lg font-semibold border-b border-gray-300 mb-2">SKILLS</h2>
                 <div className="text-sm">
-                    <div className="mb-1"><strong>Frontend:</strong> Next.JS, React, Tailwind CSS, Framer Motion, shadcn</div>
+                    <div className="mb-1"><strong>Frontend:</strong> React, Tailwind CSS, Framer Motion, shadcn</div>
                     <div className="mb-1"><strong>Backend:</strong> Python, TypeScript, Docker, Express, Socket.IO</div>
-                    <div className="mb-1"><strong>Full Stack & Auth:</strong> Clerk</div>
+                    <div className="mb-1"><strong>Full Stack & Auth:</strong> Clerk, Next.JS</div>
                     <div className="mb-1"><strong>Databases:</strong> Redis, Prisma</div>
                     <div className="mb-1"><strong>Scripting & Testing:</strong> Sklearn, Pandas, Vitest</div>
-                    <div className="mb-1"><strong>APIs:</strong> OpenAI, Anthropic, Stripe</div>
-                    <div className="mb-1"><strong>Deployment:</strong> Vercel, Railway, Render, AWS EC2, AWS Lambda Functions</div>
-                    <div className="mb-1"><strong>Other:</strong> Natural Language Processing, Data Analysis, Prompt Engineering</div>
-                </div>
-                <p className="text-sm"><strong>Other:</strong> Theoretical Math, Bayesian Statistics, Operations Research, Mandarin Chinese (conversational)</p>
+                    <div className="mb-1"><strong>APIs:</strong> OpenAI, Anthropic, Stripe, DeepGram</div>
+                    <div className="mb-1"><strong>Deployment:</strong> Vercel, Railway, Render, AWS EC2, AWS S3, AWS Lambda Functions</div>
+                    <div className="mb-1"><strong>Mathematical:</strong> Probability, Statistics, Bayesian Statistics, Linear Programming</div>                </div>
             </section>
 
             <section className="mb-2">
