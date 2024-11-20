@@ -11,6 +11,18 @@ function ShortenedApp() {
             </header>
 
             <section className="mb-2">
+                <h2 className="text-lg font-semibold border-b border-gray-300 mb-2">SKILLS</h2>
+                <div className="text-sm">
+                    <div className="mb-1"><strong>Frontend:</strong> React, Tailwind CSS, Framer Motion, shadcn, React Router</div>
+                    <div className="mb-1"><strong>Backend:</strong> Python, TypeScript, Docker, Express, Socket.IO</div>
+                    <div className="mb-1"><strong>Full Stack & Auth:</strong> Clerk, Next.JS</div>
+                    <div className="mb-1"><strong>Databases:</strong> Redis, Prisma, MongoDB</div>
+                    <div className="mb-1"><strong>Scripting & Testing:</strong> Sklearn, Pandas, Vitest</div>
+                    <div className="mb-1"><strong>APIs:</strong> OpenAI, Anthropic, Stripe, DeepGram</div>
+                    <div className="mb-1"><strong>Deployment:</strong> Vercel, Railway, Render, AWS EC2, AWS S3, AWS Lambda Functions</div>
+                    <div className="mb-1"><strong>Mathematical:</strong> Probability, Statistics, Bayesian Statistics, Linear Programming</div>                </div>
+            </section>
+            <section className="mb-2">
                 <h2 className="text-lg font-semibold border-b border-gray-300 mb-2">EXPERIENCE</h2>
                 <div className="mb-2">
                     <div className="flex justify-between items-baseline">
@@ -19,7 +31,20 @@ function ShortenedApp() {
                     </div>
                     <p className="text-sm">August 2024 – Present</p>
                     <ul className="list-disc list-inside text-sm">
+                        <li>Used Next.JS, WorkOS Authkit, Anthropic API, Deepgram API, and Cartesia API to develop voice AI for emotional work</li>
                         <li>Shipped 15+ PRs weekly. Built AI-powered UI copilot (2nd place) and multiplayer party game Quipai (3rd place) in hackathons</li>
+                    </ul>
+                </div>
+
+                <div className="mb-2">
+                    <div className="flex justify-between items-baseline">
+                        <h3 className=""><strong>Software Developer</strong> | Open Book Club</h3>
+                        <span className="text-sm">Brooklyn, NY</span>
+                    </div>
+                    <p className="text-sm">October 2024-present</p>
+                    <ul className="list-disc list-inside text-sm">
+                        <li>Used Javascript, React, MongoDB, Tailwind CSS, Express, and Twilio to develop notification center for book club platform</li>
+                        <li>Implemented polling to keep notifications up to date without refresh and used Intersection Observer API for lazy scrolling</li>
                     </ul>
                 </div>
 
@@ -83,18 +108,6 @@ function ShortenedApp() {
                 </div>
             </section>
 
-            <section className="mb-2">
-                <h2 className="text-lg font-semibold border-b border-gray-300 mb-2">SKILLS</h2>
-                <div className="text-sm">
-                    <div className="mb-1"><strong>Frontend:</strong> React, Tailwind CSS, Framer Motion, shadcn</div>
-                    <div className="mb-1"><strong>Backend:</strong> Python, TypeScript, Docker, Express, Socket.IO</div>
-                    <div className="mb-1"><strong>Full Stack & Auth:</strong> Clerk, Next.JS</div>
-                    <div className="mb-1"><strong>Databases:</strong> Redis, Prisma</div>
-                    <div className="mb-1"><strong>Scripting & Testing:</strong> Sklearn, Pandas, Vitest</div>
-                    <div className="mb-1"><strong>APIs:</strong> OpenAI, Anthropic, Stripe, DeepGram</div>
-                    <div className="mb-1"><strong>Deployment:</strong> Vercel, Railway, Render, AWS EC2, AWS S3, AWS Lambda Functions</div>
-                    <div className="mb-1"><strong>Mathematical:</strong> Probability, Statistics, Bayesian Statistics, Linear Programming</div>                </div>
-            </section>
 
             <section className="mb-2">
                 <h2 className="text-lg font-semibold border-b border-gray-300 mb-2">EDUCATION</h2>
